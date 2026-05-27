@@ -4006,15 +4006,15 @@ input, select, textarea {
 
 #banner .banner-logo {
   display: block;
-  max-width: 400px;
-  width: min(60vw, 220px);
+  max-width: 280px;
+  width: min(70vw, 280px);
   height: auto;
   margin: 0 auto 1.5em auto;
 }
 
 @media screen and (max-width: 480px) {
   #banner .banner-logo {
-    width: 70vw;
-    max-width: 200px;
+    max-width: 180px;
+    width: 60vw;
   }
 }
