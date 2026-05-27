@@ -3997,3 +3997,17 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+/* Mis cambios */
+
+
+/* Logo pagina inicio */
+
+#banner .banner-logo {
+  display: block;
+  max-width: 220px;
+  width: min(60vw, 220px);
+  height: auto;
+  margin: 0 auto 1.5em auto;
+}
