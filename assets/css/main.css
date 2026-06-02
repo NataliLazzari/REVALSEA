@@ -2818,15 +2818,15 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color: #9fc4e5ff;
-			color: #c8ece9;
+			color: #112e54ff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #ffffff;
+				color: #112e54ff;
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: #112e54ff;
 			}
 
 			.wrapper.style1 hr {
@@ -2850,7 +2850,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #112e54ff;
 			}
 
 			.wrapper.style1 label {
