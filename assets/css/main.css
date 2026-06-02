@@ -4024,13 +4024,13 @@ input, select, textarea {
 /* Seccion financiacion y universidades */
 
 #partners.partners-section {
-  padding: 4em 0;
+  padding: 3.5em 0;
   background: #f7f9fb;
   color: #112e54;
 }
 
-#partners .partners-grid {
-  max-width: 1100px;
+#partners .partners-row {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 2em;
   display: grid;
@@ -4039,45 +4039,69 @@ input, select, textarea {
   align-items: center;
 }
 
-#partners .partners-images {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2em;
+#partners .partners-left {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
 }
 
-#partners .partners-images img {
+#partners .partners-left img {
+  max-width: 130px;
   width: 100%;
-  max-width: 180px;
   height: auto;
   object-fit: contain;
-  justify-self: center;
 }
 
-#partners .partners-content h2 {
-  color: #112e54;
-  margin-bottom: 1em;
+#partners .partners-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
 }
 
-#partners .partners-content p {
-  font-size: 1em;
-  line-height: 1.8;
+#partners .partners-right img {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+#partners .partners-right p {
   margin: 0;
+  font-size: 0.78em;
+  line-height: 1.6;
+  color: #112e54;
 }
 
-@media screen and (max-width: 736px) {
-  #partners .partners-grid {
+@media screen and (max-width: 900px) {
+  #partners .partners-row {
     grid-template-columns: 1fr;
     gap: 2.5em;
     text-align: center;
   }
 
-  #partners .partners-images {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5em;
+  #partners .partners-right {
+    justify-content: center;
+    flex-direction: column;
   }
 
-  #partners .partners-images img {
-    max-width: 130px;
+  #partners .partners-right p {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #partners .partners-left img {
+    max-width: 100px;
+  }
+
+  #partners .partners-right img {
+    max-width: 100px;
+  }
+
+  #partners .partners-right p {
+    font-size: 0.72em;
   }
 }
