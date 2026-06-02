@@ -4036,7 +4036,7 @@ input, select, textarea {
   padding: 0 2em;
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 2em;
+  gap: 1em;
   align-items: center;
 }
 
