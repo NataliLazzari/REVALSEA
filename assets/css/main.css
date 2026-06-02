@@ -3561,6 +3561,16 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+		#header #logo-revalsea {
+		    display: block;   /* Evita espacios extra abajo */
+		    height: 1.2em;    /* Ajusta la altura del logo a la altura de la fuente original */
+		    width: auto;      /* Mantiene la proporción del logo */
+		    max-width: 100%;  /* No permite que se desborde */
+		    
+		    /* Dependiendo de cómo esté alineado el original, puede que necesites esto */
+		    margin: 0 auto;    /* Centra el logo horizontalmente si el H1 lo hacía */
+		}
+
 
 /* Banner */
 
