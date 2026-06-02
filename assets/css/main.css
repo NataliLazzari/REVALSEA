@@ -3562,46 +3562,50 @@ input, select, textarea {
 			}
 
 			#header h1.logo {
-			  position: absolute;
-			  left: 1.25em;
-			  top: 50%;
-			  transform: translateY(-50%);
 			  margin: 0;
-			  height: auto;
-			  line-height: 1;
+			  height: inherit;
+			  line-height: inherit;
+			  opacity: 1;
+			  transition: opacity 0.3s ease;
+			}
+			
+			#header.alt h1.logo {
+			  opacity: 0;
+			  pointer-events: none;
 			}
 			
 			#header h1.logo a {
-			  display: block;
+			  display: flex;
+			  align-items: center;
+			  height: inherit;
 			  border: 0;
-			  height: auto;
 			}
 			
 			#header h1.logo img {
 			  display: block;
-			  width: clamp(120px, 14vw, 220px);
+			  width: clamp(110px, 12vw, 190px);
 			  height: auto;
-			  max-height: 54px;
+			  max-height: 42px;
 			  object-fit: contain;
 			}
-
-@media screen and (max-width: 736px) {
-  #header h1.logo {
-    left: 1em;
-  }
-
-  #header h1.logo img {
-    width: clamp(90px, 32vw, 150px);
-    max-height: 42px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #header h1.logo img {
-    width: 95px;
-    max-height: 36px;
-  }
-}
+			
+			@media screen and (max-width: 736px) {
+			  #header h1.logo {
+			    left: 1em;
+			  }
+			
+			  #header h1.logo img {
+			    width: clamp(90px, 32vw, 150px);
+			    max-height: 42px;
+			  }
+			}
+			
+			@media screen and (max-width: 480px) {
+			  #header h1.logo img {
+			    width: 95px;
+			    max-height: 36px;
+			  }
+			}
 
 /* Banner */
 
