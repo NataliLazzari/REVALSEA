@@ -2817,7 +2817,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #c2daeeff;
+			background-color: #f1f9fff3;
 			color: #112e54ff;
 		}
 
@@ -4025,8 +4025,8 @@ input, select, textarea {
 
 #partners.partners-section {
   padding: 3.5em 0;
-  background: #f7f9fb;
-  color: #112e54;
+  background: #f1f9fff3;
+  color: #112e54ff;
 }
 
 #partners .partners-row {
