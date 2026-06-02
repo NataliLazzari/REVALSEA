@@ -4113,3 +4113,127 @@ input, select, textarea {
     text-align-last: left;
   }
 }
+
+
+
+/* Team section - Spectral style */
+
+#team.wrapper {
+  color: #ffffff;
+}
+
+#team .team-lead {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 3em;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto 4em auto;
+  padding: 2.5em;
+  background: rgba(255, 255, 255, 0.05);
+  border: solid 1px rgba(255, 255, 255, 0.125);
+}
+
+#team .team-photo img,
+#team .team-card img {
+  display: block;
+  object-fit: cover;
+  border-radius: 100%;
+  border: solid 2px rgba(255, 255, 255, 0.25);
+}
+
+#team .team-photo img {
+  width: 240px;
+  height: 240px;
+}
+
+#team .team-role {
+  display: block;
+  margin-bottom: 0.9em;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.225em;
+  text-transform: uppercase;
+}
+
+#team .team-content h3,
+#team .team-card h4,
+#team .team-subtitle {
+  color: #ffffff;
+}
+
+#team .team-content p,
+#team .team-card p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#team .team-subtitle {
+  margin: 0 0 2em 0;
+  font-size: 1em;
+  letter-spacing: 0.225em;
+  text-transform: uppercase;
+}
+
+#team .team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5em;
+}
+
+#team .team-card {
+  padding: 2em 1.5em;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: solid 1px rgba(255, 255, 255, 0.125);
+}
+
+#team .team-card img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 1.5em auto;
+}
+
+#team .team-card h4 {
+  margin-bottom: 0.8em;
+  font-size: 1em;
+}
+
+#team .team-card p {
+  font-size: 0.9em;
+  line-height: 1.65;
+}
+
+#team .button.small {
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 980px) {
+  #team .team-lead {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  #team .team-photo img {
+    margin: 0 auto;
+  }
+
+  #team .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #team .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #team .team-lead {
+    padding: 2em 1.5em;
+  }
+
+  #team .team-photo img {
+    width: 190px;
+    height: 190px;
+  }
+}
