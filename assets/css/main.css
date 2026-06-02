@@ -1791,6 +1791,19 @@ input, select, textarea {
 				height: 1px;
 			}
 
+			#one header.major h2:after {
+			  content: '';
+			  display: block;
+			  width: 8em;
+			  height: 14px;
+			  margin: 1em auto 1.25em auto;
+			  border: 0;
+			  background-image: url("data:image/svg+xml,%3Csvg width='140' height='16' viewBox='0 0 140 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 8 C 12 2, 23 2, 35 8 S 58 14, 70 8 S 93 2, 105 8 S 128 14, 140 8' fill='none' stroke='%112e54a6' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: contain;
+			}
+
 		header.major p {
 			color: #fff;
 			top: 0;
