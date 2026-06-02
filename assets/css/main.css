@@ -4086,7 +4086,7 @@ input, select, textarea {
   #partners .partners-row {
     padding: 0 1.5em;
     grid-template-columns: 1fr;
-    gap: 2.5em;
+    gap: 0.5em;
   }
 
   #partners .partners-left {
