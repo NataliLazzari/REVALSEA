@@ -4033,10 +4033,10 @@ input, select, textarea {
   max-width: none;
   width: 100%;
   margin: 0;
-  padding: 0 3em;
+  padding: 0 2em;
   display: grid;
-  grid-template-columns: 38% 62%;
-  gap: 2em;
+  grid-template-columns: auto 1fr;
+  gap: 3em;
   align-items: center;
 }
 
@@ -4046,6 +4046,7 @@ input, select, textarea {
   justify-content: flex-start;
   gap: 2em;
   flex-wrap: nowrap;
+  width: 620px;
 }
 
 #partners .partners-left img {
@@ -4057,25 +4058,25 @@ input, select, textarea {
 
 #partners .partners-right {
   display: grid;
-  grid-template-columns: 135px 1fr;
-  gap: 1.5em;
+  grid-template-columns: 170px 1fr;
+  gap: 1.75em;
   align-items: center;
 }
 
 #partners .partners-right img {
-  width: 135px;
+  width: 170px;
   height: auto;
   object-fit: contain;
 }
 
 #partners .partners-right p {
   margin: 0;
-  font-size: 0.82em;
-  line-height: 1.6;
+  max-width: 900px;
+  font-size: 0.9em;
+  line-height: 1.65;
   color: #112e54;
   text-align: left;
 }
-
 @media screen and (max-width: 900px) {
   #partners .partners-row {
     padding: 0 1.5em;
