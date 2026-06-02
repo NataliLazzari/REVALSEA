@@ -4030,7 +4030,7 @@ input, select, textarea {
 }
 
 #partners .partners-row {
-  max-width: 1600px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 0 0.75em;
   display: grid;
@@ -4075,6 +4075,13 @@ input, select, textarea {
   color: #112e54;
 }
 
+#partners .partners-left img,
+#partners .partners-right img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
 @media screen and (max-width: 900px) {
   #partners .partners-row {
     grid-template-columns: 1fr;
@@ -4103,5 +4110,12 @@ input, select, textarea {
 
   #partners .partners-right p {
     font-size: 0.72em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #partners .partners-left img,
+  #partners .partners-right img {
+    height: 45px;
   }
 }
