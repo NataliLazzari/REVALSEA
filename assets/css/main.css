@@ -3561,28 +3561,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		/* 1. Estilo para el logo cuando estás arriba del todo (Header transparente) */
-			#header.alt h1 a img {
-			    height: 2.5em;         /* Tamaño un poco más grande al inicio */
-			    width: auto;
-			    vertical-align: middle;
-			    transition: height 0.5s ease; /* Transición suave al hacer scroll */
-			}
-			
-			/* 2. Estilo para el logo cuando haces SCROLL DOWN (Header oscuro) */
-			#header h1 a img {
-			    height: 1.5em;         /* Se encoge para que el menú no se desplace hacia abajo */
-			    width: auto;
-			    vertical-align: middle;
-			    transition: height 0.5s ease;
-			}
-			
-			/* 3. Aseguramos que los contenedores no fuercen un salto de línea */
-			#header h1, #header h1 a {
-			    display: inline-block;
-			    line-height: 1;
-			    vertical-align: middle;
-			}
+		
 
 /* Banner */
 
