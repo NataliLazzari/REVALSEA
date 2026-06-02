@@ -4064,3 +4064,20 @@ input, select, textarea {
   line-height: 1.8;
   margin: 0;
 }
+
+@media screen and (max-width: 736px) {
+  #partners .partners-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5em;
+    text-align: center;
+  }
+
+  #partners .partners-images {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+  }
+
+  #partners .partners-images img {
+    max-width: 130px;
+  }
+}
