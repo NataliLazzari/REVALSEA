@@ -4076,7 +4076,8 @@ input, select, textarea {
   font-size: 0.9em;
   line-height: 1.65;
   color: #112e54;
-  text-align: left;
+  text-align: justify;
+	text-align-last: left;
 }
 @media screen and (max-width: 900px) {
   #partners .partners-row {
@@ -4105,6 +4106,7 @@ input, select, textarea {
   }
 
   #partners .partners-right p {
-    text-align: center;
+    text-align: left;
+    text-align-last: left;
   }
 }
