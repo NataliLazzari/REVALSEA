@@ -4057,28 +4057,31 @@ input, select, textarea {
 }
 
 #partners .partners-right {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 1.75em;
+  display: flex;
   align-items: center;
+  gap: 2em;
+  min-width: 0;
 }
 
 #partners .partners-right img {
   height: 64px;
   width: auto;
-  max-width: none;
+  max-width: 260px;
   object-fit: contain;
+  flex: 0 0 auto;
 }
 
 #partners .partners-right p {
   margin: 0;
-  max-width: 900px;
+  flex: 1;
+  min-width: 0;
   font-size: 0.9em;
   line-height: 1.65;
   color: #112e54;
   text-align: justify;
-	text-align-last: left;
+  text-align-last: left;
 }
+
 @media screen and (max-width: 900px) {
   #partners .partners-row {
     padding: 0 1.5em;
