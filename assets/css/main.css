@@ -4033,6 +4033,15 @@ input, select, textarea {
 
 /* Mis cambios */
 
+#two .spotlight-kicker {
+	display: block;
+	margin-bottom: 0.9em;
+	color: #377b9bff;
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.225em;
+	text-transform: uppercase;
+}
 
 /* Logo pagina inicio */
 
