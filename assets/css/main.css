@@ -3505,7 +3505,7 @@ input, select, textarea {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #fff;
+						color: #112e54ff;
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
@@ -4385,7 +4385,7 @@ color:#112e54ff
 
 /* Solo en index.html */
 body.pagina-index #nav .menuToggle span {
-	color: #112e54ff !important;
+	color: #fff !important;
 }
 
 body.pagina-index #nav .menuToggle:after {
@@ -4394,6 +4394,6 @@ body.pagina-index #nav .menuToggle:after {
 	content: '\f0c9' !important;
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
-	color: #112e54ff !important;
+	color: #fff !important;
 	margin-left: 0.5em;
 }
