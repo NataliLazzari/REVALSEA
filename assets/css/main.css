@@ -4324,6 +4324,7 @@ color:#112e54ff
 .divulgacion-card p {
 	color: #112e54ff;
 	flex-grow: 1;
+	text-align: center;
 }
 
 #divulgacion .button.small {
