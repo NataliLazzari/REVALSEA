@@ -4036,7 +4036,7 @@ input, select, textarea {
 #two .spotlight-kicker {
 	display: block;
 	margin-bottom: 0.9em;
-	color: #377b9bff;
+	color: #5ca9cdff;
 	font-size: 0.75em;
 	font-weight: 700;
 	letter-spacing: 0.225em;
@@ -4060,7 +4060,7 @@ input, select, textarea {
   }
 }
 
-/* Seccion financiacion y universidades */
+/* Sección financiación y universidades */
 
 #partners.partners-section {
   padding: 3.5em 0;
@@ -4074,8 +4074,8 @@ input, select, textarea {
   margin: 0;
   padding: 0 2em;
   display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 1em;
+  grid-template-columns: minmax(280px, 620px) 1fr;
+  gap: 2em;
   align-items: center;
 }
 
@@ -4084,8 +4084,9 @@ input, select, textarea {
   align-items: center;
   justify-content: flex-start;
   gap: 2em;
-  flex-wrap: nowrap;
-  width: 620px;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 0;
 }
 
 #partners .partners-left img {
@@ -4121,35 +4122,102 @@ input, select, textarea {
   text-align-last: left;
 }
 
-@media screen and (max-width: 900px) {
+/* Tablet */
+@media screen and (max-width: 980px) {
+  #partners.partners-section {
+    padding: 3em 0;
+  }
+
   #partners .partners-row {
-    padding: 0 1.5em;
     grid-template-columns: 1fr;
-    gap: 0.5em;
+    gap: 2em;
+    padding: 0 1.5em;
   }
 
   #partners .partners-left {
     justify-content: center;
-    flex-wrap: wrap;
+    gap: 1.5em;
   }
 
   #partners .partners-left img {
-    height: 52px;
+    height: 56px;
+    max-width: 160px;
   }
 
   #partners .partners-right {
-    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #partners .partners-right img {
+    height: 56px;
+    max-width: 220px;
+  }
+
+  #partners .partners-right p {
+    max-width: 720px;
+  }
+}
+
+/* Móvil */
+@media screen and (max-width: 736px) {
+  #partners.partners-section {
+    padding: 2.5em 0;
+  }
+
+  #partners .partners-row {
+    padding: 0 1.25em;
+    gap: 1.75em;
+  }
+
+  #partners .partners-left {
+    flex-direction: column;
+    gap: 1.25em;
+  }
+
+  #partners .partners-left img {
+    height: 48px;
+    max-width: 180px;
+  }
+
+  #partners .partners-right {
+    flex-direction: column;
+    gap: 1.25em;
     text-align: center;
   }
 
   #partners .partners-right img {
-    width: 130px;
-    justify-self: center;
+    height: auto;
+    width: 160px;
+    max-width: 70%;
   }
 
   #partners .partners-right p {
+    font-size: 0.85em;
+    line-height: 1.6;
     text-align: left;
     text-align-last: left;
+  }
+}
+
+/* Móvil pequeño */
+@media screen and (max-width: 480px) {
+  #partners .partners-row {
+    padding: 0 1em;
+  }
+
+  #partners .partners-left img {
+    height: 42px;
+    max-width: 150px;
+  }
+
+  #partners .partners-right img {
+    width: 140px;
+    max-width: 75%;
+  }
+
+  #partners .partners-right p {
+    font-size: 0.8em;
   }
 }
 
