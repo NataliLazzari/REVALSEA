@@ -3422,7 +3422,7 @@ input, select, textarea {
 	position: absolute;
 	top: 1.5em;
 	right: 1.25em;
-	width: 1.5em;
+	width: 1.1em;
 	height: 2px;
 	background-color: #112e54ff;
 	border-radius: 999px;
@@ -3435,7 +3435,7 @@ input, select, textarea {
 	position: absolute;
 	top: 1.5em;
 	right: 1.25em;
-	width: 1.5em;
+	width: 1.1em;
 	height: 2px;
 	background-color: #112e54ff;
 	border-radius: 999px;
@@ -4425,9 +4425,4 @@ body.pagina-index #nav .menuToggle:after {
 	font-weight: 900;
 	color: #fff !important;
 	margin-left: 0.5em;
-}
-
-body.pagina-index #menu .close:before,
-body.pagina-index #menu .close:after {
-	background-color: #fff !important;
 }
