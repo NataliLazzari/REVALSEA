@@ -101,6 +101,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
 	body, input, select, textarea {
 		color: #fff;
 		font-family: "Open Sans", Helvetica, sans-serif;
@@ -4380,4 +4381,19 @@ color:#112e54ff
 	.divulgacion-card .content {
 		padding: 1.25em;
 	}
+}
+
+/* Solo en index.html */
+body.pagina-index #nav .menuToggle span {
+	color: #112e54ff !important;
+}
+
+body.pagina-index #nav .menuToggle:after {
+	background-image: none !important;
+	background: none !important;
+	content: '\f0c9' !important;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: #112e54ff !important;
+	margin-left: 0.5em;
 }
