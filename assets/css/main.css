@@ -4276,6 +4276,17 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 	color: #377b9bff;
 }
 
+#divulgacion .divulgacion-fecha {
+	display: block;
+	margin-bottom: 0.9em;
+	color: #377b9bff;
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.225em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 .divulgacion-card {
 	background: rgba(255, 255, 255, 0.95);
 	border-radius: 6px;
@@ -4324,7 +4335,7 @@ color:#112e54ff
 .divulgacion-card p {
 	color: #112e54ff;
 	flex-grow: 1;
-	text-align: center;
+	text-align: left;
 }
 
 #divulgacion .button.small {
@@ -4333,7 +4344,7 @@ color:#112e54ff
   box-shadow: inset 0 0 0 2px #377b9bff;
 }
 #divulgacion .button.small:hover {
-  background-color: rgba(55, 123, 155, 0.12);
+  background-color: #d0edfbff;
   color: #377b9bff !important;
 }
 
