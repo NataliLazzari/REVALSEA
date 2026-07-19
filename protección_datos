@@ -25,9 +25,9 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Inicio</a></li>
-											<li><a href="generic.html">Equipo</a></li>
-											<li><a href="elements.html">Divulgación</a></li>
+											<li><a href="índice.html">Inicio</a></li>
+											<li><a href="equipo.html">Equipo</a></li>
+											<li><a href="divulgación.html">Divulgación</a></li>
 										</ul>
 									</div>
 								</li>
@@ -41,70 +41,31 @@
 						  <div class="inner">
 						
 						    <header class="major">
-						      <h2>Equipo del proyecto</h2>
+						      <h2>Protección de datos</h2>
 						      <p>
-						        REVALSEA reúne a un grupo interdisciplinario de investigadoras/es con experiencia en sostenibilidad, 
-						        interacciones ser humano-naturaleza, técnicas de aprendizaje automático y análisis de datos.
+						        <b>Información sobre el proyecto</b>
 						      </p>
 						    </header>
-						
-						    <!-- Investigadora principal -->
-						    <section class="team-lead">
-						      <div class="team-photo">
-						        <img src="images/natali.jpg" alt="Natali Lazzari" />
-						      </div>
-						
-						      <div class="team-content">
-						        <span class="team-role">Investigadora principal</span>
-						        <h3>Natali Lazzari</h3>
-						        <p>
-						        Natali lidera el proyecto integrando su experiencia en socioecología, valores relacionales y equidad para conectar personas, océanos y conservación marina.    
-								</p>
-						        <a href="https://www.oceanosresearchhub.com/natali.html" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
-						      </div>
-						    </section>
 
-							   <!-- colaboradores -->
+								<p>
+						        <b>¡Hola!</b>
+								Primero que nada, queremos <b>agradecerte sinceramente por dedicar tu tiempo a esta
+								encuesta</b>. Tus respuestas son cruciales para el desarrollo del proyecto REVALSEA,
+								que busca avanzar en el conocimiento sobre las relaciones ser humano-naturaleza
+								para lograr una conservación marina más efectiva y equitativa. Este proyecto está
+								financiado por el marco Horizonte Europa bajo el programa Marie Skłodowska-Curie.
+								El objetivo de <b>REVALSEA</b> es comprender <b>cómo y por qué el sector de pesca
+								artesanal español valora su relación con el mar</b>. Con esta información, podremos
+								contribuir a la creación de políticas de conservación que busquen reducir conflictos
+								y maximizar la equidad y sostenibilidad en la costa española.
+								Te invitamos a que respondas al siguiente cuestionario de forma anónima; no te
+								llevará más de 15 minutos. El cuestionario estará <b>disponible hasta el 30 de
+								septiembre de 2026</b>.
+								Recuerda, aquí no hay respuestas correctas o incorrectas, lo que realmente importa
+								es tu sinceridad. <b>¡Tu experiencia cuenta!</b>
+						      </p>
+
 						
-						    <h3 class="team-subtitle">Colaboradores</h3>
-						
-						    <div class="team-grid">
-								<article class="team-card">
-						        <img src="images/berta.png" alt="Berta Martín-López" />
-						        <span class="team-role">Colaboradora</span>
-						        <h4>Berta Martín-López</h4>
-						        <p>Aportando experiencia sobre el papel de los valores como motores de cambios transformadores hacia la sostenibilidad.</p>
-						        <a href="https://www.leuphana.de/en/institutes/sesi/team/berta-martin-lopez.html" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
-						      </article>
-								
-						      <article class="team-card">
-						        <img src="images/nick.jpg" alt="Nicholas Murray" />
-						        <span class="team-role">Colaborador</span>
-						        <h4>Nicholas Murray</h4>
-						        <p>Contribuyendo con experiencia en ecología espacial e inteligencia artificial aplicada a la conservación.</p>
-						        <a href="https://www.globalecologylab.org/" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
-						      </article>
-								
-								<article class="team-card">
-						        <img src="images/sebas.png" alt="Sebastián Villasante" />
-						        <span class="team-role">Colaborador</span>
-						        <h4>Sebastián Villasante</h4>
-						        <p>Impulsando el estudio de cambios transformadores en sistemas marinos, con especial atención a la equidad.</p>
-						        <a href="https://cretus.usc.es/en/sebastian-villasante-larramendi/" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
-						      </article>
-						
-						      <article class="team-card">
-						        <img src="images/jose.jpg" alt="Jose A Sanabria-Fernandez" />
-						        <span class="team-role">Colaborador</span>
-						        <h4>Jose A Sanabria-Fernandez</h4>
-						        <p>Aportando conocimiento combinado en resiliencia ecológica e inteligencia artificial para anticipar cambios en los ecosistemas marinos.</p>
-						        <a href="https://www.oceanosresearchhub.com/jose.html" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
-						      </article>
-					
-						    </div>
-						
-						  </div>
-						</section>
 				<!-- Sección logos / colaboración -->
 							<section id="partners" class="partners-section">
 							  <div class="inner partners-row">
