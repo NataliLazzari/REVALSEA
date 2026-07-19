@@ -1,1 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>REVALSEA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
 
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt"> <h1><a href="index.html">revalsea</a></h1> 
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Inicio</a></li>
+											<li><a href="generic.html">Equipo</a></li>
+											<li><a href="elements.html">Divulgación</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+				
+				<!-- Equipo -->
+					
+						<section id="team" class="wrapper style3 special">
+						  <div class="inner">
+						
+						    <header class="major">
+						      <h2>Equipo del proyecto</h2>
+						      <p>
+						        REVALSEA reúne a un grupo interdisciplinario de investigadoras/es con experiencia en sostenibilidad, 
+						        interacciones ser humano-naturaleza, técnicas de aprendizaje automático y análisis de datos.
+						      </p>
+						    </header>
+						
+						    <!-- Investigadora principal -->
+						    <section class="team-lead">
+						      <div class="team-photo">
+						        <img src="images/natali.jpg" alt="Natali Lazzari" />
+						      </div>
+						
+						      <div class="team-content">
+						        <span class="team-role">Investigadora principal</span>
+						        <h3>Natali Lazzari</h3>
+						        <p>
+						        Natali lidera el proyecto integrando su experiencia en socioecología, valores relacionales y equidad para conectar personas, océanos y conservación marina.    
+								</p>
+						        <a href="https://www.oceanosresearchhub.com/natali.html" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
+						      </div>
+						    </section>
+
+							   <!-- colaboradores -->
+						
+						    <h3 class="team-subtitle">Colaboradores</h3>
+						
+						    <div class="team-grid">
+								<article class="team-card">
+						        <img src="images/berta.png" alt="Berta Martín-López" />
+						        <span class="team-role">Colaboradora</span>
+						        <h4>Berta Martín-López</h4>
+						        <p>Aportando experiencia sobre el papel de los valores como motores de cambios transformadores hacia la sostenibilidad.</p>
+						        <a href="https://www.leuphana.de/en/institutes/sesi/team/berta-martin-lopez.html" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
+						      </article>
+								
+						      <article class="team-card">
+						        <img src="images/nick.jpg" alt="Nicholas Murray" />
+						        <span class="team-role">Colaborador</span>
+						        <h4>Nicholas Murray</h4>
+						        <p>Contribuyendo con experiencia en ecología espacial e inteligencia artificial aplicada a la conservación.</p>
+						        <a href="https://www.globalecologylab.org/" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
+						      </article>
+								
+								<article class="team-card">
+						        <img src="images/sebas.png" alt="Sebastián Villasante" />
+						        <span class="team-role">Colaborador</span>
+						        <h4>Sebastián Villasante</h4>
+						        <p>Impulsando el estudio de cambios transformadores en sistemas marinos, con especial atención a la equidad.</p>
+						        <a href="https://cretus.usc.es/en/sebastian-villasante-larramendi/" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
+						      </article>
+						
+						      <article class="team-card">
+						        <img src="images/jose.jpg" alt="Jose A Sanabria-Fernandez" />
+						        <span class="team-role">Colaborador</span>
+						        <h4>Jose A Sanabria-Fernandez</h4>
+						        <p>Aportando conocimiento combinado en resiliencia ecológica e inteligencia artificial para anticipar cambios en los ecosistemas marinos.</p>
+						        <a href="https://www.oceanosresearchhub.com/jose.html" class="button small" target="_blank" rel="noopener noreferrer">Ver perfil</a>
+						      </article>
+					
+						    </div>
+						
+						  </div>
+						</section>
+				<!-- Sección logos / colaboración -->
+							<section id="partners" class="partners-section">
+							  <div class="inner partners-row">
+							
+							    <div class="partners-left">
+							      <img src="images/usc.png" alt="Logo institución 1" />
+							      <img src="images/jcu2.png" alt="Logo institución 2" />
+							      <img src="images/leuphanalogo.png" alt="Logo institución 3" />
+							    </div>
+							
+							    <div class="partners-right">
+							      <img src="images/ES_FundedbytheEU_RGB_POS.png" alt="Logo Unión Europea" />
+							      <p>El proyecto REVALSEA (No. 101146373) está financiado por la Unión Europea. Las opiniones y puntos de vista expresados solo comprometen a su(s) autor(es) y no reflejan 
+								  necesariamente los de la Unión Europea o los de la Agencia Ejecutiva Europea de Educación y Cultura (EACEA). Ni la Unión Europea ni la EACEA pueden ser consideradas 
+								  responsables de ellos. 
+						      </p>
+						    </div>
+						
+						  </div>
+						</section>
+				
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/natali-lazzari-32a2b91ba/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:lazzari.natali@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; REVALSEA 2026. Todos los derechos reservados.</li>
+							<li>Design: HTML5 UP</li>
+						</ul>
+					</footer>
+
+				</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
