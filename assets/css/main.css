@@ -4503,3 +4503,37 @@ body.pagina-index #nav .menuToggle:after {
 	color: #fff !important;
 	margin-left: 0.5em;
 }
+
+
+/* Entidades colaboradoras */
+
+#collaborators {
+  text-align: center;
+}
+
+.collaborators-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.collaborator-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
+  min-height: 140px;
+  padding: 1.5rem 2rem;
+}
+
+.collaborator-card img {
+  display: block;
+  max-width: 260px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
