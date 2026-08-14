@@ -4507,33 +4507,50 @@ body.pagina-index #nav .menuToggle:after {
 
 /* Entidades colaboradoras */
 
-#collaborators {
+.collaborators-card {
+  max-width: 900px;
+	padding: 2em 1.5em;
   text-align: center;
+  background: rgba(255, 255, 255, 0.95);
+border-radius: 6px;
+box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 }
 
-.collaborators-grid {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.collaborators-logos {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2.5rem;
-  margin-top: 2rem;
 }
 
-.collaborator-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 220px;
-  min-height: 140px;
-  padding: 1.5rem 2rem;
-}
-
-.collaborator-card img {
+.collaborators-logos img {
   display: block;
-  max-width: 260px;
-  max-height: 120px;
+  max-width: 220px;
+  max-height: 110px;
   width: auto;
   height: auto;
   object-fit: contain;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 736px) {
+
+  .collaborators-card {
+    padding: 1.5rem;
+  }
+
+  .collaborators-logos {
+    gap: 1.5rem;
+  }
+
+  .collaborators-logos img {
+    max-width: 180px;
+    max-height: 90px;
+  }
+
 }
