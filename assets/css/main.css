@@ -4984,6 +4984,8 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 
 #participa .major h2 {
 	text-transform: none;
+
+	color: #112e54ff !important;
 }
 
 
@@ -4994,8 +4996,9 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 	margin-right: auto;
 
 	text-transform: none;
-}
 
+	color: #2f6f8fff !important;
+}
 
 /* =========================================================
    INFOGRAFÍA
