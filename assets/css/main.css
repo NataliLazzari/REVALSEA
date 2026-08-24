@@ -4556,18 +4556,16 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 }
 
 /* =========================================================
-   PORTADA REVALSEA - VIDEO ENCUESTA
+   PORTADA REVALSEA
    ========================================================= */
 
-/* Banner completo */
 .pagina-index #banner {
 	height: auto;
 	min-height: 100vh;
-	padding: 4.5em 1.5em 6.5em 1.5em;
+	padding: 3.2em 1.5em 6.5em 1.5em;
 	justify-content: flex-start;
 }
 
-/* Contenido centrado */
 .pagina-index #banner .inner {
 	width: 100%;
 	max-width: 900px;
@@ -4577,30 +4575,69 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
-}
 
-/* Subimos visualmente logo + texto */
-.pagina-index #banner .banner-logo {
-	margin-top: 0;
-	margin-bottom: 0.8em;
-}
-
-.pagina-index #banner .banner-subtitle {
-	margin: 0 0 1.2em 0;
 	text-align: center;
 }
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.pagina-index #banner .banner-logo {
+	width: 230px;
+	max-width: 60vw;
+	height: auto;
+
+	margin: 0 0 1.2em 0;
+}
+
+
+/* =========================================================
+   PREGUNTA PRINCIPAL
+   ========================================================= */
+
+.banner-question {
+	margin: 0 0 0.65em 0;
+
+	font-size: 1.65em;
+	line-height: 1.25;
+
+	font-weight: 700;
+	letter-spacing: 0.04em;
+
+	text-transform: none;
+}
+
+
+/* =========================================================
+   TEXTO
+   ========================================================= */
+
+.banner-subtitle {
+	margin: 0 0 1.4em 0 !important;
+
+	font-size: 0.95em;
+	line-height: 1.6;
+
+	letter-spacing: 0.03em !important;
+	text-transform: none !important;
+
+	opacity: 0.92;
+}
+
 
 /* =========================================================
    VIDEO VERTICAL 9:16
    ========================================================= */
 
 .banner-video {
-	width: 250px;
+	width: 240px;
 	max-width: 68vw;
 
 	aspect-ratio: 9 / 16;
 
-	margin: 0.5em auto 1.3em auto;
+	margin: 0 auto 1.5em auto;
 
 	border-radius: 18px;
 	overflow: hidden;
@@ -4622,6 +4659,7 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 	background: #000;
 }
 
+
 /* =========================================================
    BOTÓN ENCUESTA
    ========================================================= */
@@ -4632,21 +4670,68 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 }
 
 .survey-button .button {
-	min-width: 220px;
+	min-width: 240px;
+
+	border-radius: 50px;
+
+	font-weight: 700;
+	letter-spacing: 0.08em;
+
+	box-shadow: 0 7px 22px rgba(0, 0, 0, 0.20);
+
+	transition:
+		transform 0.25s ease,
+		box-shadow 0.25s ease;
 }
 
-/* Texto pequeño debajo */
-.survey-note {
-	margin: 0.8em 0 0 0 !important;
+.survey-button .button:hover {
+	transform: translateY(-2px);
 
-	font-size: 0.72em !important;
+	box-shadow:
+		0 11px 28px rgba(0, 0, 0, 0.28);
+}
+
+
+/* =========================================================
+   INFORMACIÓN DE LA ENCUESTA
+   ========================================================= */
+
+.survey-info {
+	margin: 0.9em 0 0 0 !important;
+
+	font-size: 0.74em !important;
+	line-height: 1.4;
+
+	font-weight: 600;
+
+	letter-spacing: 0.04em !important;
+	text-transform: none !important;
+
+	opacity: 0.9;
+}
+
+.survey-note {
+	margin: 0.35em 0 0 0 !important;
+
+	font-size: 0.68em !important;
 	line-height: 1.4;
 
 	letter-spacing: 0.02em !important;
 	text-transform: none !important;
 
-	opacity: 0.8;
+	opacity: 0.72;
 }
+
+
+/* =========================================================
+   "CONOCE REVALSEA"
+   ========================================================= */
+
+.pagina-index #banner .more {
+	font-size: 0.72em;
+	letter-spacing: 0.12em;
+}
+
 
 /* =========================================================
    MÓVIL
@@ -4655,22 +4740,41 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
 @media screen and (max-width: 736px) {
 
 	.pagina-index #banner {
-		padding-top: 3.5em;
+		padding-top: 2.8em;
 		padding-bottom: 6em;
 	}
 
-	.pagina-index #banner .banner-subtitle {
+	.pagina-index #banner .banner-logo {
+		width: 200px;
 		margin-bottom: 1em;
 	}
 
+	.banner-question {
+		font-size: 1.35em;
+		margin-bottom: 0.65em;
+	}
+
+	.banner-subtitle {
+		font-size: 0.88em;
+		line-height: 1.55;
+		margin-bottom: 1.2em !important;
+	}
+
 	.banner-video {
-		width: 230px;
-		max-width: 68vw;
-		margin-top: 0.3em;
-		margin-bottom: 1.2em;
+		width: 225px;
+		max-width: 70vw;
+		margin-bottom: 1.3em;
+	}
+
+	.survey-button .button {
+		min-width: 220px;
+	}
+
+	.survey-info {
+		font-size: 0.70em !important;
 	}
 
 	.survey-note {
-		font-size: 0.68em !important;
+		font-size: 0.64em !important;
 	}
 }
