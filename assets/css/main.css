@@ -4554,3 +4554,77 @@ box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
   }
 
 }
+
+/* ------------------------------------------------
+   VIDEO PORTADA REVALSEA
+------------------------------------------------ */
+
+#banner {
+	height: auto;
+	min-height: 100vh;
+	padding-top: 4em;
+	padding-bottom: 7em;
+}
+
+#banner .inner {
+	width: 100%;
+}
+
+/* Video vertical */
+.banner-video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1.8em auto 1.6em auto;
+}
+
+.banner-video video {
+	display: block;
+	width: 280px;
+	max-width: 72vw;
+	height: auto;
+
+	border-radius: 18px;
+
+	box-shadow:
+		0 15px 40px rgba(0, 0, 0, 0.28);
+
+	background: #000;
+}
+
+/* Botón encuesta */
+.survey-button {
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+.survey-button .button {
+	min-width: 220px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
+
+/* Móvil */
+@media screen and (max-width: 736px) {
+
+	#banner {
+		padding-top: 3em;
+		padding-bottom: 7em;
+	}
+
+	.banner-video {
+		margin-top: 1.5em;
+		margin-bottom: 1.4em;
+	}
+
+	.banner-video video {
+		width: 250px;
+		max-width: 75vw;
+	}
+
+	.survey-button .button {
+		width: auto;
+		min-width: 210px;
+	}
+}
